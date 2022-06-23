@@ -1,0 +1,155 @@
+*{
+ width: 100%;
+ 
+ 
+}
+img{
+ width: 50%;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ width:100%;
+ flex-wrap: wrap;
+ align-content: space-evenly;
+ padding-left: 10px;
+ padding-top: none;
+ 
+
+ background-color: #1F2937;
+ size: 24px;
+ color: #F9FAF8;
+ 
+}
+.navbar{
+ display: flex;
+ align-items: flex-end;
+ justify-content: flex-end;
+ 
+}
+.navbar-logo{
+ display: flex;
+ align-items: flex-start;
+ justify-content: flex-start;
+ size: 24px;
+ color: #F9FAF8;
+ 
+}
+.nav-list{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
+ justify-content: space-around;
+ gap: 100px;
+ padding: none;
+}
+
+li{
+ list-style: none;
+ display: flex;
+ align-items: ;
+}
+.containertwo{
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: row;
+ background-color: #1F2937;
+ height: 350px;
+ width: 100%;
+ color: #F9FAF8;
+ 
+}
+.containertwo-left{
+ display: flex;
+ flex-direction: column;
+ align-items:center ;
+ justify-content: center;
+ width: 50%;
+ 
+}
+.containertwo-right{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+button{
+ background-color: #0066ff;
+ color: #F9FAF8;
+ border-radius: 5px;
+ width: 100px;
+ height: 25px;
+ border: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.container-three{
+ display: flex;
+ align-items: center;
+ justify-items: center;
+ flex-direction: column;
+ width: 100%;
+}
+.container-three-blocks{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+ 
+}
+
+/* p{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+} */
+h2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.container-four{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.container-four-quote{
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+}
+
+.container-four-author{
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+}
+p.container-four-quote{
+ font-style: italic;
+}
+
+h5.container-four-author{
+ display: flex;
+ align-items: flex-end;
+ justify-content: end;
+}
+
+.container-six{
+ background-color: #0066ff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ 
+button.container-six{
+ border-color: white;
+ border-radius: 25px;
+}
