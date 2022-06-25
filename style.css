@@ -136,6 +136,9 @@ p.hero-left-para{
 }
 .quote-container{
  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-end;
  padding: 50px;
  
 }
@@ -148,7 +151,43 @@ p.author{
  font-style: italic;
  
 }
-.author{
+.action-container{
+ background-color: #3882F6;
+ width: 80%;
+ padding: 20px;
+ margin: 50px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.left-action-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+}
+h5.call-to-action{
+ font-size: larger;
+}
+p.action-para{
+ font-size: medium;
+}
+
+.button{
+ border-color: #fff;
+ border-radius: 5px;
+ background-color: transparent;
+ border-style: solid;
+ border-width: 2px;
+ padding: 5px 10px;
+
  
- text-align: end;
+}
+}
+footer{
+ background-color: #1F2937;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
 }
