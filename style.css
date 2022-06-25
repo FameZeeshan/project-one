@@ -112,7 +112,8 @@ h2.{
  justify-content: space-around;
  align-items: space-evenly;
  gap: 20px;
- /* padding: 20px; */
+ padding: 20px;
+ min-width: none;
 }
 img.image-container{
  max-width: 20%;
