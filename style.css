@@ -98,6 +98,7 @@ a.btn{
  color: black;
  flex-wrap: wrap;
  align-content: space-evenly;
+ width: 100%;
  
 }
 h2.{
