@@ -29,11 +29,43 @@ img{
 
 a{
  text-decoration: none;
+ color: #fff;
 }
 
 li{
  list-style: none;
 }
-.container{
- 
+.header{
+ background-color: #1F2937;
+ color: #fff;
+ display: flex;
+ flex-direction: column;
+ padding: 2rem;
+
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.nav-list{
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ gap: 10px;
+}
+.hero{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 2rem;
+}
+.hero-left{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ align-items: flex-start;
+ width: 50%;
+ padding-left: 2rem;
+ padding-right: 2rem;
 }
