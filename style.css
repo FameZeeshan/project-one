@@ -56,9 +56,9 @@ li{
 .hero{
  display: flex;
  justify-content: space-evenly;
- align-items: space-around;
+ align-items: center;
  padding-top: 10px;
- flex-wrap: wrap;
+ 
  
 }
 .hero-left{
@@ -68,10 +68,10 @@ li{
  align-items: flex-start;
  width: 50%;
  padding-right: 5px;
+ flex-wrap: wrap;
+ align-content: space-evenly;
 }
-.hero-right{
- 
-}
+
 p{
  padding-top: 10px;
  padding-bottom: 10px;
