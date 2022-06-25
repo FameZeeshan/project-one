@@ -130,23 +130,15 @@ p.hero-left-para{
 
 .quote-container{
  background-color: #a8a9ab;
- padding-top: 50px;
- padding-bottom: 50px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- width: 100%;
- 
-}
-.quote-container{
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: flex-end;
  padding: 50px;
- 
+ justify-content: center;
+ width: 100%;
 }
+
 p.quote{
  font-size: 36px;
  font-weight: lighter;
