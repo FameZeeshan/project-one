@@ -23,6 +23,7 @@ body{
 img{
  width: 100%;
  height: auto;
+ border-radius: 10px;
 }
 
 a{
@@ -93,11 +94,11 @@ a.btn{
  background-color: #fff;
  display: flex;
  flex-direction: column;
- justify-content: flex-end;
+ justify-content: center;
  align-items: center;
  color: black;
  flex-wrap: wrap;
- align-content: space-evenly;
+ align-content: space-around;
  width: 100%;
  
 }
@@ -113,6 +114,7 @@ h2.{
  gap: 20px;
  padding: 20px;
 }
+
 .heading{
  display: flex;
  justify-content: center;
