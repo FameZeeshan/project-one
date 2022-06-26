@@ -16,6 +16,7 @@
  align-items: flex-end;
  gap: 1rem;
  padding-right: 10px;
+ 
 }
 .header{
  background-color: #1F2937;
@@ -62,7 +63,7 @@ h1{
  align-items: center;
  padding-top: 10px;
  flex-wrap: wrap;
- align-content: space-evenly;
+ align-content: space-around;
  width: 100%;
  
  
