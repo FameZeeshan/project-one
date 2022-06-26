@@ -14,7 +14,6 @@
 body{
  font-family: 'Noto Sans', sans-serif;
  background-color: #fff;
- 
  width: 100%;
  font-size: 16px;
 }
@@ -42,22 +41,33 @@ h1{
  color: #fff;
  display: flex;
  flex-direction: column;
- padding-top: 10px;
- padding-right: 0px;
- 
+ align-items:space-around;
+ padding: 10px 30px;
+
 }
 .navbar{
  display: flex;
- justify-content: space-between;
+ justify-content: flex-start;
+ align-items: flex-start;
+ 
+}
+.navbar-brand{
+ display: flex;
+ justify-content: flex-start;
  align-items: center;
- padding-left: 60px;
 }
 .nav-list{
  display: flex;
- justify-content: center;
- align-items: flex-end;
+ justify-content: flex-end;
+ align-items: center;
  gap: 10px;
- padding-right: 10px;
+ 
+ 
+}
+.navlist-link{
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .hero{
  display: flex;
