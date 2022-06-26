@@ -158,6 +158,8 @@ p.author{
  display: flex;
  justify-content: space-around;
  align-items: center;
+ flex-wrap: wrap;
+ align-content: space-evenly;
 }
 .left-action-container{
  display: flex;
@@ -165,9 +167,7 @@ p.author{
  justify-content: flex-start;
  align-items: flex-start;
 }
-h5.call-to-action{
- font-size: larger;
-}
+
 p.action-para{
  font-size: medium;
 }
